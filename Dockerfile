@@ -7,3 +7,4 @@ RUN yum -y update &&\
 CMD ["usr/sbin/httpd","-D","FOREGROUND"]
 
 EXPOSE 80
+#Maks
