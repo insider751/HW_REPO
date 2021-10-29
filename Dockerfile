@@ -6,4 +6,4 @@ RUN yum -y update &&\
     echo "ServerName localhost" >> /etc/httpd/conf/httpd.conf
 CMD ["usr/sbin/httpd","-D","FOREGROUND"]
 
-XPOSE 80
+EXPOSE 80
